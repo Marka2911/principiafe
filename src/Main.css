@@ -54,6 +54,7 @@
 }
 
 .regular-container {
+    width: 97%;
     border-radius: 1rem;
     margin: 2rem;
     min-height: 15rem;
