@@ -1,0 +1,98 @@
+:root{
+    --primary-color: #d9fbfa;
+    --button-primary-color: #d3d3d3;
+    --secondary-color: #ffffff;
+    --button-secondary-color: #0b5560;
+    --text-color: #0b5560;
+    --button-tertiary-color: #1fb6b9;
+}
+.header-container{
+    height: 10rem;
+    background-color: var(--primary-color);
+}
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-left-container{
+    width: 100%;
+    gap: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-right-container {
+    width: 15%;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.compte-container,
+.language-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.section-title {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+}
+
+.section-title p {
+    margin: 0;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.account-buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.account-buttons button {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background-color: var(--button-primary-color);
+    cursor: pointer;
+}
+.language-container button {
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.4rem 0.8rem;
+    background-color: var(--button-primary-color);
+    cursor: pointer;
+}
+.account-buttons .register-btn {
+    background-color: var(--button-secondary-color);
+    color: white;
+}
+.logo-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo-title-container h1{
+    font-size: 1.5rem;
+    color: var(--text-color);
+    text-align: center;
+    margin: 0;
+}
+.header-left-container p{
+    color: var(--text-color);
+    font-weight: bold;
+}
+.logo-title-container img{
+    width: 8rem;
+    height: 8rem;
+}
+
